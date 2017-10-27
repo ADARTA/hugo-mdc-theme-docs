@@ -46,7 +46,7 @@ googleAnalytics = ""
 	blogtype = "doctypes"
 
 [params]
-  description = "Documents for the Hugo MDC Theme"
+  description = "Documents"
 	titlemessage = "Using the theme to build it's own docs"
   companyname = "ADARTA Inc."
   author = "ADARTA Inc."
