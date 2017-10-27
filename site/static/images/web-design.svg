@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+]>
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="600px" height="600px" viewBox="-62.369 -70.036 600 600" enable-background="new -62.369 -70.036 600 600"
+	 xml:space="preserve">
+<defs>
+</defs>
+<line fill="none" stroke="#9498A6" stroke-width="5" stroke-miterlimit="10" x1="243.131" y1="2.964" x2="243.131" y2="479.964"/>
+<ellipse fill="none" stroke="#9498A6" stroke-width="5" stroke-miterlimit="10" cx="243.35" cy="243.582" rx="111.933" ry="240.618"/>
+<ellipse fill="none" stroke="#9498A6" stroke-width="5" stroke-miterlimit="10" cx="237.626" cy="243.582" rx="187.097" ry="240.618"/>
+<ellipse fill="none" stroke="#9498A6" stroke-width="5" stroke-miterlimit="10" cx="243.625" cy="225.582" rx="240.618" ry="92.979"/>
+<circle fill="none" stroke="#8C6239" stroke-width="5" stroke-miterlimit="10" cx="243.35" cy="243.35" r="240.85"/>
+</svg>

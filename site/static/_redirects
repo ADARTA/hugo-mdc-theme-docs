@@ -1,0 +1,2 @@
+# http and https need separate rules
+http://hugo-mdc.adarta.us/* https://hugo-mdc.adarta.us/:splat 301!

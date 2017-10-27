@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+]>
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="600px" height="600px" viewBox="-35 -38 600 600" enable-background="new -35 -38 600 600"
+	 xml:space="preserve">
+<defs>
+</defs>
+<rect x="1.5" y="1.5" fill="none" stroke="#A0A0A0" stroke-width="3" stroke-miterlimit="10" width="534" height="522"/>
+<rect x="62" y="269" fill="#C7B299" stroke="#9F8C7A" stroke-width="6" stroke-miterlimit="10" width="270" height="144"/>
+<polygon fill="#C4B8AE" stroke="#9F8C7A" stroke-width="3" stroke-miterlimit="10" points="355.262,466.5 45.458,466.5 
+	62.781,418.5 332.781,418.5 "/>
+<polygon fill="#ADB1BC" stroke="#9498A6" stroke-miterlimit="10" points="337.281,457.5 59.781,457.5 68.781,430.5 326.781,430.5 
+	"/>
+<g>
+	<rect x="405" y="263" fill="#C7B299" width="77" height="156"/>
+	<g>
+		<path fill="#9F8C7A" d="M481.75,414.125c-25.5,0-51,0-76.5,0c1.5,1.5,3,3,4.5,4.5c0-48.93,0-97.859,0-146.789
+			c0-2.82,0-5.641,0-8.461c-1.5,1.5-3,3-4.5,4.5c25.5,0,51,0,76.5,0c-1.5-1.5-3-3-4.5-4.5c0,48.93,0,97.859,0,146.789
+			c0,2.82,0,5.641,0,8.461c0,5.804,9,5.804,9,0c0-48.93,0-97.859,0-146.789c0-2.82,0-5.641,0-8.461c0-2.453-2.047-4.5-4.5-4.5
+			c-25.5,0-51,0-76.5,0c-2.453,0-4.5,2.047-4.5,4.5c0,48.93,0,97.859,0,146.789c0,2.82,0,5.641,0,8.461c0,2.453,2.047,4.5,4.5,4.5
+			c25.5,0,51,0,76.5,0C487.554,423.125,487.554,414.125,481.75,414.125z"/>
+	</g>
+</g>
+<line fill="#9F8C7A" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="423" y1="263.5" x2="463" y2="263.5"/>
+<line fill="#9F8C7A" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="437" y1="418.5" x2="451" y2="418.5"/>
+<g>
+	<rect x="142" y="43" fill="#C7B299" width="246" height="156"/>
+	<g>
+		<path fill="#9F8C7A" d="M388,191c-46.154,0-92.309,0-138.463,0c-35.846,0-71.691,0-107.537,0c2.667,2.667,5.333,5.333,8,8
+			c0-49.025,0-98.051,0-147.077c0-2.975,0-5.949,0-8.923c-2.667,2.667-5.333,5.333-8,8c46.154,0,92.309,0,138.464,0
+			c35.845,0,71.69,0,107.536,0c-2.667-2.667-5.333-5.333-8-8c0,49.025,0,98.051,0,147.077c0,2.975,0,5.949,0,8.923
+			c0,10.318,16,10.318,16,0c0-49.025,0-98.051,0-147.077c0-2.975,0-5.949,0-8.923c0-4.361-3.639-8-8-8c-46.154,0-92.309,0-138.463,0
+			c-35.846,0-71.691,0-107.537,0c-4.361,0-8,3.639-8,8c0,49.025,0,98.051,0,147.077c0,2.975,0,5.949,0,8.923c0,4.361,3.639,8,8,8
+			c46.154,0,92.309,0,138.464,0c35.845,0,71.69,0,107.536,0C398.318,207,398.318,191,388,191z"/>
+	</g>
+</g>
+<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="388" cy="125" r="4.5"/>
+</svg>

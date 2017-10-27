@@ -1,0 +1,14 @@
+#contact-card .mdc-card__media {
+  background-image: url("/assets/images/Logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
+#splash-section {
+  background-image: url("/assets/images/bg/balloons.png");
+  /*background-image: url("https://placehold.it/1920x1280/9F8C7A/000000?text=Just+a+Placeholder+Background+Image"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 800px;
+}

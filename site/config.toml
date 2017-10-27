@@ -1,0 +1,116 @@
+languageCode = "en-us"
+title = "Hugo MDC Theme"
+baseURL = "/"
+
+# Development config vars
+MetaDataFormat = "yaml"
+builddrafts = false
+canonifyurls = true
+defaultExtension = "html"
+disableLiveReload = false
+watch = true
+ignoreFiles = [ "\\.git$", "\\.gitkeep$", "\\.boo$" ]
+
+# Dir Paths
+themesdir = "themes"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+staticdir = "static"
+
+# theme to use (located by default in /themes/THEMENAME/)
+theme =  "default"
+# theme = "custom-theme-name"
+
+# Paging Settings
+Paginate = 10
+PaginatePath = "p"
+
+# Log File path (if set, logging enabled automatically)
+logfile = ""
+# verbose output
+verbose = false
+# verbose logging
+verboseLog = true
+
+# google analytics tracking id
+googleAnalytics = ""
+
+[permalinks]
+	page = "/:title/"
+	about = "/:filename/"
+
+[taxonomies]
+  keyword = "keywords"
+	category = "categories"
+	blogtype = "doctypes"
+
+[params]
+  description = "Documents for the Hugo MDC Theme"
+	titlemessage = "Using the theme to build it's own docs"
+  companyname = "ADARTA Inc."
+  author = "adartasoftware.com"
+  githubuser = "adarta"
+	# avatar = "/assets/images/logo-lens-400.png"
+  # background = "/assets/images/background.jpg"
+  # logoimage = "/assets/images/logo-400.png"
+	# drawerlogo = "/assets/images/logo-400.png"
+	# Style page for Site -------------------
+  sitestyle = "/assets/css/site-style.css"
+  sitescript = "/assets/js/main.js"
+	# Directory for Splash items on First Page [default: splash] -------------------
+  splashdir = "splash"
+	# Menu Style (temporary [default] or persistent) ------------------------------
+  menustyle = "temporary"
+	# Address (comment to hide) ------------------------------
+  citystate = "Huntington Beach, California"
+	# Social Buttons (comment to hide) ------------------------------
+  email = "info@adartasoftware.com"
+  # github = "https://github.com/adarta/"
+	# linkedin = "https://www.linkedin.com/in/user"
+  # fbappid = "0000000004894066"
+	# ---------------------------------------------------------------
+  copyrightyear = "2017"
+	# footername = "simple-footer.html" # Uncomment to show a footer without menu
+  # specific to admin in theme
+  domain = "hugo-mdc.adarta.us"
+  # maildomain = "adartasoftware.com"
+  # admin - seo
+  [params.og]
+    locale = "en_US"
+    type = "website"
+    site_name = "ADARTA"
+    image = "/assets/images/logo.png"
+  [params.twitter]
+    card = "summary"
+    site = "AdartaSoftware"
+    via = "AdartaSoftware"
+    description = "ADARTA, check out our new post"
+    hashtags = "adarta, software, web, hb, huntingtonbeach"
+  [params.facebook]
+    site = "AdartaSoftware"
+    author = "AdartaSoftware"
+  [params.instagram]
+    site = "AdartaSoftware"
+    author = "AdartaSoftware"
+  [params.google]
+    site = "adartasoftware"
+
+# Fully customizable header menu
+[[menu.main]]
+	name = "Docs"
+  pre = '<i class="material-icons mdc-list-item__start-detail" aria-hidden="true">chrome_reader_mode</i>'
+	url = "/doc/"
+	weight = 10
+[[menu.main]]
+	name = "Contact"
+  pre = '<i class="material-icons mdc-list-item__start-detail" aria-hidden="true">local_phone</i>'
+	url = "/contact/"
+	weight = 30
+
+# Blackfriday is Hugo’s Markdown rendering engine. See http://gohugo.io/overview/configuration/
+[blackfriday]
+  angledQuotes = false
+  fractions = false
+  plainIDAnchors = true
+  # extensions = ["hardLineBreak"]
