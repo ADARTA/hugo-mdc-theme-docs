@@ -8,9 +8,9 @@ authorimage: "/assets/images/logo.png"
 date: {{ .Date }}
 publishdate: {{ .Date }}
 lastmod: {{ .Date }}
-categories: [] # [Technology, Social, Opinion]
-keywords: [] # [Hugo, Javascript, Netlify, Facebook, Instagram, Wordpress, ]
-doctypes: [] # [Announcement, Tutorial, Special Offer, Information, Video]
+categories: [] # [Setup, Configuration, Build, Enhance]
+keywords: [] # [Hugo, Javascript, Netlify, Git]
+doctypes: [] # [Information, Video, Mixed]
 weight: 00
 slug: ""
 aliases: []

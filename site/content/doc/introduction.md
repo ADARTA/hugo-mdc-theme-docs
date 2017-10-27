@@ -2,7 +2,7 @@
 title: "Introduction to the Theme"
 linktitle: "Introduction"
 description: ""
-type: "blog"
+type: "doc"
 author: "ADARTA Inc."
 authorimage: "/assets/images/logo.png"
 date: 2017-10-24T22:01:46-07:00
