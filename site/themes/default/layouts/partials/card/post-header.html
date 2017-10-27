@@ -1,0 +1,34 @@
+<div class="mdc-card">
+    <section class="mdc-card__primary mdc-theme-primary">
+      <h1 class="mdc-card__title mdc-card__title--large"><span class="mdc-theme--secondary mdc-typography--display3">{{ .Title }}</span></h1>
+      <h2 class="mdc-card__subtitle"><span class="mdc-theme--primary">{{ .Date.Format "Jan 2, 2006" }}</span></h2>
+    </section>
+    <section class="mdc-card__supporting-text">
+      {{if .Params.categories}}
+      {{ if gt (len .Params.categories) 0}}
+      <p>
+        Categories: {{ range .Params.categories }}
+          <a class="mdc-button mdc-button--stroked mdc-button--dense " href="{{ (print "/categories/" ( lower . )) | relURL }}">{{ . | humanize }}</a>
+        {{ end }}
+      </p>
+      {{ end }}
+      {{ end }}
+      {{if .Params.tags}}
+      {{ if gt (len .Params.tags) 0}}
+      <p>
+        Tags: {{ range .Params.tags }}
+        <a class="mdc-button mdc-button--stroked mdc-button--dense " href="{{ (print "/tags/" ( lower . )) | relURL }}">{{ . | humanize }}</a>
+        {{ end }}
+        </p>
+        {{ end }}
+        {{ end }}
+      </section>
+    <section class="mdc-card__actions">
+        {{- if .PrevInSection -}}
+        <a href="{{ .PrevInSection.URL | relURL }}" class="mdc-button mdc-button--stroked mdc-button--compact mdc-card__action">Previous</a>
+        {{- end -}}
+        {{- if .NextInSection -}}
+        <a href="{{ .NextInSection.URL | relURL }}" class="mdc-button mdc-button--stroked mdc-button--compact mdc-card__action">Next</a>
+        {{- end -}}
+      </section>
+  </div>
