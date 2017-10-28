@@ -7,7 +7,6 @@
 
 - [Hugo][1]
 - [Material Components][2]
-- [React][3]
 
 # Serving up the site (Dev)
 Builds the bundle with watch during development
@@ -29,5 +28,4 @@ $ gulp build
 
 [1]: http://gohugo.io/ "Hugo - Make the web fun Again!"
 [2]: https://github.com/material-components/material-components-web "Material Design look and feel to your websites"
-[3]: https://facebook.github.io/react/ "A JAVASCRIPT LIBRARY FOR BUILDING USER INTERFACES"
 [4]: https://github.com/talves "Programming like a Boss"
