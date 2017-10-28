@@ -7,6 +7,7 @@
 
 - [Hugo][1]
 - [Material Components][2]
+- [Netlify][3]
 
 # Serving up the site (Dev)
 Builds the bundle with watch during development
@@ -24,8 +25,9 @@ or
 $ gulp build
 ```
 
-## Built with :heart: by [T Alves][4]
+## Built with :hammer: by [T Alves][4]
 
 [1]: http://gohugo.io/ "Hugo - Make the web fun Again!"
 [2]: https://github.com/material-components/material-components-web "Material Design look and feel to your websites"
+[3]: https://netlify.com/ "Netlify is hosting these docs"
 [4]: https://github.com/talves "Programming like a Boss"
