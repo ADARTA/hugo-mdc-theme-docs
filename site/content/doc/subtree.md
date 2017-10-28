@@ -43,10 +43,10 @@ git commit -m "updating the theme"
 
 ```bash
 git checkout adarta-theme
-git merge --squash -s subtree --no-commit master
-git commit -m "(adarta-theme subtree) changes"
+git merge --squash -s subtree --no-commit master --allow-unrelated-histories
+git commit -m "Explain the merge reason"
 
-git push themerepo adarta-theme
+git push themerepo adarta
 ```
 
 ## The project should be ready to rock and roll just fine
