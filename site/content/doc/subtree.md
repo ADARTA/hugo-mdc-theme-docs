@@ -8,9 +8,11 @@ authorimage: "/assets/images/logo.png"
 date: 2017-10-27T22:01:46-07:00
 publishdate: 2017-10-27T22:01:46-07:00
 lastmod: 2017-10-27T22:01:46-07:00
-categories: [Setup] # [Setup, Configuration, Build, Enhance]
-keywords: [Git] # [Hugo, Javascript, Netlify, Git]
-doctypes: [] # [Information, Video, Mixed]
+categories: 
+  Setup # [Setup, Configuration, Build, Enhance]
+keywords: 
+  Git # [Hugo, Javascript, Netlify, Git]
+doctypes: # [Information, Video, Mixed]
 weight: 00
 slug: ""
 aliases: []

@@ -1,0 +1,25 @@
+backend:
+  name: github
+  repo: ADARTA/hugo-mdc-theme-docs # Path to your Github repository
+  branch: test-cms # Branch to update (master by default)
+
+#publish_mode: editorial_workflow
+media_folder: "site/static/images/uploads" # Folder where user uploaded files should go
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "doc" # Used in routes, e.g., /admin/collections/:slug/edit
+    label: "Document" # Used in the UI, e.g., "New Post"
+    folder: "site/content/doc" # The path to the folder where the documents are stored
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Publish Date", name: "publishdate", widget: "datetime"}
+      - {label: "LastMod Date", name: "lastmod", widget: "datetime"}
+      - label: "Categories"
+        name: "categories"
+        widget: "list"
+        fields:
+          - {label: "category", name: "{{slug}}", widget: "text"}
