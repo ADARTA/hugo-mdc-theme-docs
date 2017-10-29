@@ -4,6 +4,8 @@
   command = "yarn build"
 [context.production.environment]
   HUGO_VERSION = "0.29"
+[context.development.environment]
+  HUGO_VERSION = "0.29"
 # you can lock a version of hugo for a deploy preview
 [context.deploy-preview.environment]
   HUGO_VERSION = "0.29"
