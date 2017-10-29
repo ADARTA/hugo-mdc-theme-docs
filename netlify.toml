@@ -2,16 +2,14 @@
 [build]
   publish = "public"
   command = "yarn build"
-[context.environment]
-  HUGO_VERSION = "0.30"
 [context.production.environment]
   HUGO_VERSION = "0.29"
 # you can lock a version of hugo for a deploy preview
 [context.deploy-preview.environment]
   HUGO_VERSION = "0.29"
 # you can lock a version of hugo for a branch-deploy
-# [context.branch-deploy.environment]
-#   HUGO_VERSION = "0.30"
+[context.branch-deploy.environment]
+  HUGO_VERSION = "0.30"
 # build a preview of the site (Drafts and Future dates also)
 [context.deploy-preview]
   command = "yarn build:preview"
