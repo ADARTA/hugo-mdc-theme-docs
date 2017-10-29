@@ -6,11 +6,12 @@
   "scripts": {
     "test": "",
     "hugo": "gulp hugo",
+    "hugo:v": "hugo version",
     "clean": "gulp clean:public",
     "build:production": "gulp build",
     "server": "gulp server",
     "server:preview": "gulp server-preview",
-    "build": "npm-run-all build:production",
+    "build": "npm-run-all hugo:v build:production",
     "build:preview": "gulp build-preview",
     "start": "npm-run-all clean server",
     "start:preview": "npm-run-all clean server:preview",
