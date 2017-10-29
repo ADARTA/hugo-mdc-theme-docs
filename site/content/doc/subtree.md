@@ -35,8 +35,8 @@ git commit -m "Add the theme subtree to our docs"
 git checkout adarta-theme
 git pull
 git checkout master
-git merge --squash -s subtree --no-commit adarta-theme
-git commit -m "updating the theme"
+git merge --squash -s subtree --no-commit adarta-theme --allow-unrelated-histories
+git commit -m "updating subtree hugo-mdc-theme (site/themes/default)"
 ```
 
 ## To update the subtree repo with change from the subtree folder of the project repo:
