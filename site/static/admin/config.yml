@@ -1,6 +1,6 @@
 backend:
-  name: git-gateway
-  # repo: ADARTA/hugo-mdc-theme-docs # Path to your Github repository
+  name: github
+  repo: ADARTA/hugo-mdc-theme-docs # Path to your Github repository
   branch: test-cms # Branch to update (master by default)
 
 #publish_mode: editorial_workflow
