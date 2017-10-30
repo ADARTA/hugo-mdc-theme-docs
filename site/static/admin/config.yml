@@ -22,4 +22,4 @@ collections: # A list of collections the CMS should be able to edit
         name: "categories"
         widget: "list"
         fields:
-          - {label: "category", name: "{{slug}}", widget: "text"}
+          {label: "category", widget: "text"}
