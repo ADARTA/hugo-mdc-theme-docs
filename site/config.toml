@@ -1,6 +1,7 @@
 languageCode = "en-us"
 title = "Hugo MDC Theme"
 baseURL = "/"
+enableRobotsTXT = true
 
 # Development config vars
 MetaDataFormat = "yaml"
@@ -25,13 +26,6 @@ theme =  "default"
 # Paging Settings
 Paginate = 10
 PaginatePath = "p"
-
-# Log File path (if set, logging enabled automatically)
-logfile = ""
-# verbose output
-verbose = false
-# verbose logging
-verboseLog = true
 
 # google analytics tracking id
 googleAnalytics = ""
