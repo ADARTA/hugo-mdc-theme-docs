@@ -5,10 +5,6 @@
   HUGO_VERSION = "0.29"
   HUGO_ENV = "development"
 
-# build a preview of the site (Drafts and Future dates also)
-[context.deploy-preview]
-  command = "yarn build:preview"
-
 [context.production.environment]
   HUGO_VERSION = "0.29"
   HUGO_ENV = "production"
@@ -20,3 +16,7 @@
 [context.branch-deploy.environment]
   HUGO_VERSION = "0.30"
   HUGO_ENV = "development"
+# build a preview of the site (Drafts and Future dates also)
+[context.deploy-preview]
+  command = "yarn build:preview"
+
