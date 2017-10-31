@@ -1,6 +1,7 @@
 [build]
   command = "yarn build"
   publish = "public"
+  HUGO_ENV = "development"
 
 [context.deploy-preview]
   command = "yarn build:preview"
@@ -16,4 +17,3 @@
 [context.branch-deploy.environment]
   HUGO_VERSION = "0.30"
   HUGO_ENV = "development"
-
