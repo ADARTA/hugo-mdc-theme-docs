@@ -2,6 +2,8 @@
 [build]
   command = "yarn build"
   publish = "public"
+  HUGO_VERSION = "0.29"
+  HUGO_ENV = "development"
 
 # build a preview of the site (Drafts and Future dates also)
 [context.deploy-preview]
