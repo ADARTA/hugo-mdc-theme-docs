@@ -62,9 +62,9 @@
       {{- template "_internal/schema.html" . -}}
       {{- partial "twitter-cards.html" . -}}
 
-      {{ if eq (getenv "HUGO_ENV") "production" }}
-        {{ template "_internal/google_analytics_async.html" . }}
-      {{ end }}
+      {{- if eq (getenv "HUGO_ENV") "production" -}}
+        {{ partial "admin/google_analytics_async.html" . }}
+      {{- end -}}
   </head>
   <body class="some-body{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
       {{- if $.Param "menustyle" -}}

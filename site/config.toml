@@ -27,8 +27,8 @@ theme =  "default"
 Paginate = 10
 PaginatePath = "p"
 
-# google analytics tracking id
-googleAnalytics = ""
+# google analytics tracking id (replace, this one is the demo site's)
+googleAnalytics = "UA-43572044-2"
 
 [permalinks]
 	page = "/:title/"
