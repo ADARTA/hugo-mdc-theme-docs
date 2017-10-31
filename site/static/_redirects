@@ -1,2 +1,4 @@
 # http and https need separate rules
 http://hugo-mdc.adarta.us/* https://hugo-mdc.adarta.us/:splat 301!
+http://hugo-mdc.netlify.com https://hugo-mdc.adarta.us 301!
+https://hugo-mdc.netlify.com https://hugo-mdc.adarta.us 301!

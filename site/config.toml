@@ -1,6 +1,7 @@
 languageCode = "en-us"
 title = "Hugo MDC Theme"
 baseURL = "/"
+enableRobotsTXT = true
 
 # Development config vars
 MetaDataFormat = "yaml"

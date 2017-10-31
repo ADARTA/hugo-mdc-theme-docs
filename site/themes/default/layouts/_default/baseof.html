@@ -2,6 +2,7 @@
 <html class="no-js" lang="{{ with $.Site.LanguageCode }}{{ . }}{{ else }}en-us{{ end }}">
   <head>
     <meta charset="utf-8">
+    <link rel="canonical" href="https://{{ .Site.Params.domain }}{{.URL | relURL }}"/>
     {{/* https://www.zachleat.com/web/preload/
     <link rel="preload" href="{{ "files/somefont-200.woff2" | absURL }}" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="{{ "files/somefont-400.woff2" | absURL }}" as="font" type="font/woff2" crossorigin>
@@ -38,7 +39,7 @@
     <!-- Tile icon for Win8 (144x144 + tile color) -->
     <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
     <meta name="msapplication-TileColor" content="#3372DF">
-     {{ .Hugo.Generator }}
+    {{ .Hugo.Generator }}
 
       {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
         <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
