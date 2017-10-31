@@ -47,7 +47,6 @@
     "babel-preset-env": "^1.6.1",
     "babel-register": "^6.11.6",
     "browser-sync": "^2.18.13",
-    "cross-env": "^5.1.1",
     "css-loader": "^0.23.1",
     "cssnano": "^3.9.1",
     "date-fns": "^1.27.2",

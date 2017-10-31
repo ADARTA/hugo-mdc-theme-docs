@@ -27,13 +27,6 @@ theme =  "default"
 Paginate = 10
 PaginatePath = "p"
 
-# Log File path (if set, logging enabled automatically)
-logfile = ""
-# verbose output
-verbose = false
-# verbose logging
-verboseLog = true
-
 # google analytics tracking id
 googleAnalytics = ""
 
