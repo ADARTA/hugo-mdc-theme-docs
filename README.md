@@ -1,7 +1,7 @@
 # ![ADARTA Hugo MDC Theme Docs](https://raw.githubusercontent.com/adarta/hugo-mdc-theme-docs/master/site/static/images/small-logo.png)
 
-# ADARTA Hugo MDC Theme Docs
---------
+# ADARTA Hugo MDC Theme Docs - ([Demo HERE][5])
+
 
 ## A static site build using:
 
@@ -31,3 +31,4 @@ $ gulp build
 [2]: https://github.com/material-components/material-components-web "Material Design look and feel to your websites"
 [3]: https://netlify.com/ "Netlify is hosting these docs"
 [4]: https://github.com/talves "Programming like a Boss"
+[5]: https://hugo-mdc.adarta.us/
