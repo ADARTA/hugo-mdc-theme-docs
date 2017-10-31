@@ -1,8 +1,7 @@
 User-agent: *
-
-{{- if eq (getenv "HUGO_ENV") "production" -}}
+{{ if eq (getenv "HUGO_ENV") "production" }}
 Disallow: admin/
 Disallow:
-{{- else -}}
+{{ else }}
 Disallow: /
-{{- end -}}
+{{ end }}
